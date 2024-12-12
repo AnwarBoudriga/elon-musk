@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-50 text-gray-700 font-sans leading-relaxed">
+        
+        <header id="top" class="bg-gray-800 text-white py-6 text-center">
+            <h1 class="text-3xl font-semibold">Elon Musk - Contact</h1>
+            <nav class="mt-4">
+                <a href="index.html" class="text-white hover:bg-gray-700 px-4 py-2 rounded-md">Accueil</a>
+                <a href="About.html" class="text-white hover:bg-gray-700 px-4 py-2 rounded-md">À propos</a>
+                <a href="Work.html" class="text-white hover:bg-gray-700 px-4 py-2 rounded-md">Projets</a>
+                <a href="Resume.html" class="text-white hover:bg-gray-700 px-4 py-2 rounded-md">CV</a>
+                <a href="Contact.html" class="text-white hover:bg-gray-700 px-4 py-2 rounded-md">Contact</a>
+            </nav>
+        </header>
+        
+        <main class="container mx-auto p-6">
+            <div class="grid md:grid-cols-3 gap-6">
+                
+                <div class="grid grid-cols-1 gap-8 mb-6 bg-gray-200 rounded-lg shadow-md mb-4">
+                    <iframe class="w-full rounded-md mb-4" width="560" height="315" src="https://www.youtube.com/embed/oPliyLk303c?si=xGT3pSJrpy1miB4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="text-center">L'avenir d'Internet | Surveillance de masse | Nouvelle technologie | Documentaire</p>
+                    <iframe class="w-full rounded-md mt-4" width="560" height="315" src="https://www.youtube.com/embed/htjRUL3neMg?si=xcY1bGxLC2WUVFug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="text-center mt-2">What is ROBOTICS | Robotics Explained | Robotics Technology | What are Robots</p>
+                </div>
+
+                <div class="bg-gray-200 p-6 rounded-lg shadow-lg col-span-2 w-[79%]">
+                    <iframe class="w-full rounded-md mb-4" width="560" height="315" src="https://www.youtube.com/embed/CRiHDm_hXXk?si=1GgCBfQHFWwhOS67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <form class="space-y-4">
+                        <div class="flex flex-col space-y-2">
+                            <label for="name" class="text-lg">Nom :</label>
+                            <input type="text" id="name" name="name" required class="px-4 py-2 border border-gray-300 rounded-md">
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <label for="email" class="text-lg">Email :</label>
+                            <input type="email" id="email" name="email" required class="px-4 py-2 border border-gray-300 rounded-md">
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <label for="message" class="text-lg">Message :</label>
+                            <textarea id="message" name="message" required class="px-4 py-2 border border-gray-300 rounded-md"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">Envoyer</button>
+                    </form>
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="bg-gray-800 text-center text-white py-6">
+            <p>Email : elon.musk@tesla.com</p>
+            <p>Site web : <a href="elonmusk.com" class="text-green-500 hover:underline">elonmusk.com</a></p>
+        </footer>
+
+    </body>
+</html>
